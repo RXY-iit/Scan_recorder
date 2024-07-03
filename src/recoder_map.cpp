@@ -67,7 +67,7 @@ int main(int argc, char** argv)
 {
     ros::init(argc, argv, "recorder_map_node");
     ros::NodeHandle nh;
-    std::string filename = "scan_data_2.csv";
+    std::string filename = "map_data_1.csv";
     
     ScanRecorder recorder(nh, "/scan", filename);
 

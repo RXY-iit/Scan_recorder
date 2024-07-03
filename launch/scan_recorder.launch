@@ -20,9 +20,9 @@
     </node>
 
     <node name="joy_controller3" pkg="yamasemi_sim" type="joy_controller3">
-    </node> -->
+    </node>
 
-    <!-- <node name="recorder_map_node" pkg="scan_recorder" type="recorder_map_node">
+    <node name="recorder_map_node" pkg="scan_recorder" type="recorder_map_node">
     </node> -->
 
     <node name="scan_recorder_node" pkg="scan_recorder" type="scan_recorder_node" output="screen">
